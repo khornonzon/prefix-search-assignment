@@ -11,8 +11,11 @@ This document describes the implementation of the prefix search system for the c
 
 ### Setup and Run
 
-**Option 1: Using setup script (recommended)**
+**Option 1: Define venv and use setup script (recommended)**
 ```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requrements.txt
 ./setup.sh
 ```
 
