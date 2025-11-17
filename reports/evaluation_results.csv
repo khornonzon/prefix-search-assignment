@@ -1,0 +1,32 @@
+query,site,type,notes,top_1,top_1_score,top_2,top_2_score,top_3,top_3_score,latency_ms,precision_at_3,coverage,judgement
+ма,Store A,open,Mobile keystroke for butter/oil,Полотенца бумажные эко «MaxiRoll» 2шт,67.63,Полотенца бумажные кухонные «MaxiRoll» 2шт,67.63,Полотенца бумажные эко «MaxiRoll» 8шт,67.63,12.54,0.00,1,needs_review
+йогурт гр,Store A,open,Partial multi-word,Йогурт греческий черника «Mediterran» 140г,128.20,Йогурт греческий натуральный «Mykonos» 900г,128.20,Йогурт греческий без сахара «Ionian» 500г,128.20,12.31,1.00,1,relevant
+bon pa,Store A,open,Foreign brand transliteration,Мармелад жевательный ягодный «Bon Paris» 75г,187.16,Шоколад премиальный молочный «Bon Paris» 90г,187.16,Мармелад жевательный sour «Bon Paris» 150г,187.16,12.25,1.00,1,relevant
+холс,Store B,open,Brand typed in Cyrillic,,,,,,,7.02,0.00,0,needs_review
+крем для рук,Store B,open,Full phrase but should tolerate prefixes,Крем для рук коллаген «Herbal Line» 100мл,219.31,Крем для рук коллаген «Herbal Line» 100мл,219.31,Крем для рук питательный «Herbal Line» 75мл,219.31,13.35,1.00,1,relevant
+масло раст 10л,Store C,open,B2B volume intent,Масло подсолнечное premium «Helio» 10000мл,62.13,Масло подсолнечное premium «Rosa» 10000мл,62.13,Масло подсолнечное premium «Helio» 10000мл,62.13,13.39,1.00,1,relevant
+кар тофель,Store D,open,Broken spacing,Шоколад премиальный с карамелью «Nordic Choco» 200г,88.75,Шоколад премиальный с карамелью «Nordic Choco» 80г,88.75,,,9.95,0.00,1,needs_review
+xfq,Store E,open,Wrong keyboard layout for чай,Чай листовой чёрный «Samokat» 90г,61.87,Чай листовой матча «Ahmad» 75г,61.87,Чай листовой улун «Ahmad» 250г,61.87,11.25,0.00,1,needs_review
+adapter usb c,Store E,open,English technical query,Адаптер USB-C 35W «TechNode» 1шт,63.49,Адаптер USB-C 65W «ChargeLab» 1шт,63.49,Адаптер USB-C gan «VoltEdge» 1шт,63.49,11.00,0.00,1,needs_review
+pr,Store F,open,Wine prefix (prosecco/premium),Вино игристое prosecco «Prosecco Alto» 1500мл,71.48,Вино игристое prosecco «Prosecco Alto» 750мл,71.48,Вино игристое prosecco «Premium Cellar» 750мл,71.48,11.36,1.00,1,relevant
+riesling mos,Store F,open,Region-specific wine,Вино игристое riesling mosel «Mosel Craft» 1500мл,209.56,Вино игристое riesling mosel «Mosel Craft» 750мл,209.56,Вино игристое riesling mosel «Rieslinghaus» 750мл,199.29,11.35,1.00,1,relevant
+памперсы 3,Store D,open,Size constraint,Подгузники детские размер 2 «PampKids» 32шт,16.34,Подгузники детские размер 3 «EcoBaby» 32шт,16.34,Подгузники детские размер 2 «EcoBaby» 32шт,16.34,12.16,0.00,1,needs_review
+масло сл,Store A,open,Two-letter stop,Масло сливочное безлактозное «Teos» 1кг,120.52,Масло сливочное премиум «Teos» 200г,120.52,Масло сливочное безлактозное «Teos» 1кг,120.52,11.72,1.00,1,relevant
+филе инд,Store A,open,Protein intent,Филе грудки индейки HoReCa «FarmLine» 5кг,140.39,Филе грудки индейки в маринаде «ProteinPro» 700г,140.39,Филе грудки индейки для стейков «ProteinPro» 700г,140.39,13.09,1.00,1,relevant
+teos,Store A,open,Brand prefix,Масло сливочное безлактозное «Teos» 1кг,101.83,Йогурт греческий персик «Teos» 900г,101.83,Йогурт греческий черника «Teos» 140г,101.83,35.91,1.00,1,relevant
+греч не,Store C,open,Cyrillic split,Крупа гречневая HoReCa «EcoBag» 15кг,57.88,Крупа гречневая HoReCa «EcoBag» 800г,57.88,Крупа гречневая HoReCa «EcoBag» 15кг,57.88,10.33,0.00,1,needs_review
+prosecco ro,Store F,open,Latin multi-word,Вино игристое rose «Prosecco Alto» 1500мл,171.32,Вино игристое prosecco «Prosecco Alto» 1500мл,122.91,Вино игристое prosecco «Prosecco Alto» 750мл,122.91,11.61,1.00,1,relevant
+джин то,Store F,open,Cocktail ingredient,Масло оливковое Classico «La Toscana» 750мл,79.50,Масло оливковое для жарки «La Toscana» 250мл,79.50,Масло оливковое для салатов «La Toscana» 250мл,79.50,11.15,0.00,1,needs_review
+хозяйст мыло,Store D,open,Household goods,Перчатки одноразовые l «SafeTouch» 200шт,3.38,Перчатки одноразовые l «SafeTouch» 200шт,3.38,Перчатки одноразовые m «Medico» 200шт,3.38,8.04,0.00,1,needs_review
+power bank 20,Store E,open,Numeric suffix,Power Bank 20000mAh «PowerStack» 1шт,271.17,Power Bank 20000mAh «HyperCell» 1шт,236.90,Power Bank 20000mAh «VoltEdge» 1шт,236.90,11.61,1.00,1,relevant
+сыр гауда,Store C,open,Category + brand,Сыр гауда кусок «ChefPro» 2кг,130.90,Сыр гауда для сендвичей «ChefPro» 200г,130.90,Сыр гауда кусок «Dutch Yard» 200г,128.31,10.14,1.00,1,relevant
+diap night,Store D,open,Latin shortcut for diapers,Подгузники детские premium «Huggsy» 26шт,12.34,Подгузники детские для чувствительной кожи «Huggsy» 60шт,12.34,Подгузники детские premium «EcoBaby» 40шт,12.34,8.83,0.00,1,needs_review
+cat adult,Store C,open,Pet food intent,Корм для кошек сухой adult «CatCraft» 1500г,207.07,Корм для кошек сухой hairball «CatCraft» 10кг,122.82,Корм для кошек сухой indoor «CatCraft» 400г,122.82,10.35,1.00,1,relevant
+dog hypo,Store C,open,Hypoallergenic dog food,Корм для собак гипоаллергенный salmon «DogForce» 12кг,115.56,Корм для собак гипоаллергенный medium «DogForce» 1500г,115.56,Корм для собак гипоаллергенный mini «DogForce» 1500г,115.56,10.16,1.00,1,relevant
+san pelle,Store F,open,Sparkling water brand,Минеральная вода citrus «San Pellegrino» 1.5л,264.47,Вино игристое sanpellegrino spritz «Prosecco Alto» 1500мл,89.69,Вино игристое sanpellegrino spritz «Prosecco Alto» 1500мл,89.69,8.92,0.33,1,needs_review
+посуд моющ,Store D,open,Abbreviated dish soap,Средство для мытья посуды для детской посуды «AllDish» 450мл,97.29,Средство для мытья посуды для детской посуды «BioClean» 450мл,97.29,Средство для мытья посуды для детской посуды «Crystal Drop» 1500мл,96.06,10.78,0.00,1,needs_review
+лампа led е27,Store E,open,Mixed alphabet technical,Лампа LED E27 «Volt» 4шт,291.54,Лампа LED E27 «EcoLight» 2шт,291.54,Лампа LED E27 «Volt» 4шт,291.54,11.46,1.00,1,relevant
+мешки 120л,Store D,open,Trash bags with volume,,,,,,,6.47,0.00,0,needs_review
+круп греч,Store C,open,Abbreviated grocery,Крупа гречневая ядрица «Русская крупа» 15кг,161.99,Крупа гречневая ядрица «Русская крупа» 900г,161.99,Крупа гречневая organic «Русская крупа» 15кг,161.99,12.06,1.00,1,relevant
+рыба фил,Store B,open,Frozen fish block,Рыба минтай блок филе «ChefPro» 5кг,136.41,Рыба минтай блок филе «HoReCaFish» 10кг,136.41,Рыба минтай блок филе «HoReCaFish» 10кг,136.41,12.04,1.00,1,relevant
+SUMMARY,,,,,,,,,,11.8,0.58,93.33%,"Coverage: 93.3%, P@3: 0.58"

@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: prefix-search-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  search-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: prefix-search-service
+    ports:
+      - "5000:5000"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      - ELASTICSEARCH_HOST=http://elasticsearch:9200
+      - FLASK_ENV=development
+    volumes:
+      - ./data:/app/data:ro
+      - ./service:/app/service:ro
+
+volumes:
+  es_data:
+
