@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-"""Generate a synthetic catalog for the prefix-search assignment."""
-from __future__ import annotations
-
 import argparse
 import random
 import xml.etree.ElementTree as ET

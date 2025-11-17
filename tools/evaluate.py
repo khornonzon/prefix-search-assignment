@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-"""Evaluation script for prefix search queries."""
-from __future__ import annotations
-
 import argparse
 import csv
 import time

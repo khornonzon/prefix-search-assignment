@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""Replay a fixed subset of prefix queries against a running search API.
-
-The script helps reviewers capture comparable snapshots for manual relevance
-checks. It reads the shared `data/prefix_queries.csv`, selects the first N rows
-by default (matching the open-query block), calls `/search?q=...&top_k=...`,
-and writes a CSV log with the top documents plus any HTTP/JSON errors.
-"""
-
-from __future__ import annotations
-
 import argparse
 import csv
 import json
